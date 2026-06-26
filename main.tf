@@ -3,7 +3,7 @@ region= "us-east-1"
 }
 
 resource "aws_s3_bucket" "bucket" {
-bucket = "alexandra-terraform-cloud"
+bucket = "alexandra-terraform-cloud-1"
 
 tags = {
 Name = "alexandra-terraform"
